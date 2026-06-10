@@ -94,7 +94,7 @@ AgroMind-AI/
 ## 1️⃣ Clone the Repository
 
 ```bash id="cloneagromind"
-git clone https://github.com/yourusername/AgroMind-AI.git
+git clone https://github.com/soumyashis2005/AgroMind-AI.git
 ```
 
 ---
