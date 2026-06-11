@@ -159,25 +159,25 @@ Backend Deployment
 
 📊 Dashboard
 
-"Dashboard" (screenshots/agro_dashboard.png)
+![Dashboard](/screenshots/agro_dashboard.png)
 
 ---
 
 🌦️ Weather Monitoring
 
-![Weather](screenshots/agro_weather.png)
+![Weather](/screenshots/agro_weather.png)
 
 ---
 
 🌾 Crop Disease Detection
 
-![Disease Detection](screenshots/agro_disease_detection.png)
+![Disease Detection](/screenshots/agro_disease_detection.png)
 
 ---
 
 🤖 AI Farming Assistant
 
-![AI Chat](screenshots/agro_chat.png)
+![AI Chat](/screenshots/agro_chat.png)
 
 ---
 
