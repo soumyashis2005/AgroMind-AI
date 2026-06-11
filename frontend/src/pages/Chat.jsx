@@ -339,8 +339,9 @@ function Chat() {
                     flex
                     items-center
                     justify-center
-                    min-h-[50vh] md:min-h-[70vh]
-                    px-4 pt-6 pb-24
+                    py-16
+                    md:py-24
+                    px-4
                   "
                 >
                   <div className="text-center max-w-2xl mx-auto">
