@@ -9,9 +9,11 @@ The platform combines Artificial Intelligence, real-time weather monitoring, and
 # 🌐 Live Demo
 
 ## Frontend
+
 https://your-vercel-url.vercel.app
 
 ## Backend
+
 https://agromind-ai-q13r.onrender.com
 
 > ⚠️ Note:
@@ -23,37 +25,37 @@ https://agromind-ai-q13r.onrender.com
 
 ## 🤖 AI Farming Assistant
 
-- AI-powered chatbot for farming-related queries
-- Smart farming recommendations
-- Interactive real-time chat support
-- AI-generated agricultural guidance
+* AI-powered chatbot for farming-related queries
+* Smart farming recommendations
+* Interactive real-time chat support
+* AI-generated agricultural guidance
 
 ## 🌾 Crop Disease Detection
 
-- Upload crop or leaf images
-- AI-based disease analysis
-- Crop health monitoring
-- Smart disease insights
+* Upload crop or leaf images
+* AI-based disease analysis
+* Crop health monitoring
+* Smart disease insights
 
 ## 🌦️ Weather Monitoring
 
-- Real-time weather updates
-- Temperature, humidity, and wind monitoring
-- Weather-based farming recommendations
+* Real-time weather updates
+* Temperature, humidity, and wind monitoring
+* Weather-based farming recommendations
 
 ## 📊 Smart Analytics Dashboard
 
-- Farming activity analytics
-- Disease scan tracking
-- AI chatbot usage statistics
-- Weather monitoring analytics
-- Dynamic dashboard insights
+* Farming activity analytics
+* Disease scan tracking
+* AI chatbot usage statistics
+* Weather monitoring analytics
+* Dynamic dashboard insights
 
 ## 👨‍🌾 Farmer Profile System
 
-- Secure authentication system
-- Personalized farmer dashboard
-- User-specific activity tracking
+* Secure authentication system
+* Personalized farmer dashboard
+* User-specific activity tracking
 
 ---
 
@@ -61,22 +63,22 @@ https://agromind-ai-q13r.onrender.com
 
 ## Frontend
 
-- React.js
-- Vite
-- Tailwind CSS
-- Framer Motion
-- React Icons
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
+* React Icons
 
 ## Backend
 
-- Flask
-- Flask-CORS
-- SQLite
+* Flask
+* Flask-CORS
+* SQLite
 
 ## APIs & AI
 
-- Groq AI API
-- OpenWeather API
+* Groq AI API
+* OpenWeather API
 
 ---
 
@@ -102,33 +104,41 @@ AgroMind-AI/
 ├── screenshots/
 │
 └── README.md
+```
 
 ---
 
-⚡ Installation & Setup
+# ⚡ Installation & Setup
 
-1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/soumyashis2005/AgroMind-AI.git
+```
 
 ---
 
-2️⃣ Frontend Setup
+## 2️⃣ Frontend Setup
 
+```bash
 cd frontend
 
 npm install
 
 npm run dev
+```
 
 Frontend runs on:
 
+```bash
 http://localhost:5173
+```
 
 ---
 
-3️⃣ Backend Setup
+## 3️⃣ Backend Setup
 
+```bash
 cd backend
 
 pip install -r requirements.txt
@@ -136,66 +146,69 @@ pip install -r requirements.txt
 python database.py
 
 python app.py
+```
 
 Backend runs on:
 
+```bash
 http://127.0.0.1:5000
+```
 
 ---
 
-🌐 Deployment
+# 🌐 Deployment
 
-Frontend Deployment
+## Frontend Deployment
 
-- Vercel
+* Vercel
 
-Backend Deployment
+## Backend Deployment
 
-- Render
+* Render
 
 ---
 
-📸 Screenshots
+# 📸 Screenshots
 
-📊 Dashboard
+## 📊 Dashboard
 
 ![Dashboard](/screenshots/agro_dashboard.png)
 
 ---
 
-🌦️ Weather Monitoring
+## 🌦️ Weather Monitoring
 
 ![Weather](/screenshots/agro_weather.png)
 
 ---
 
-🌾 Crop Disease Detection
+## 🌾 Crop Disease Detection
 
 ![Disease Detection](/screenshots/agro_disease_detection.png)
 
 ---
 
-🤖 AI Farming Assistant
+## 🤖 AI Farming Assistant
 
 ![AI Chat](/screenshots/agro_chat.png)
 
 ---
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
-- JWT Authentication
-- PostgreSQL Database
-- Advanced AI/ML Integration
-- Voice Assistant
-- PDF Report Generation
-- Multi-language Support
-- Advanced Dashboard Charts
-- Farmer Community Features
-- Real-time Notifications
+* JWT Authentication
+* PostgreSQL Database
+* Advanced AI/ML Integration
+* Voice Assistant
+* PDF Report Generation
+* Multi-language Support
+* Advanced Dashboard Charts
+* Farmer Community Features
+* Real-time Notifications
 
 ---
 
-👨‍💻 Developer
+# 👨‍💻 Developer
 
 Soumyashis Ghosh
 
@@ -204,7 +217,7 @@ Brainware University
 
 ---
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
@@ -217,12 +230,12 @@ If you would like to improve this project:
 
 ---
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-⭐ Support
+# ⭐ Support
 
 If you like this project, consider giving it a ⭐ on GitHub!
