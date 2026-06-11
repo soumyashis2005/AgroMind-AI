@@ -64,7 +64,7 @@ function Chat() {
   const fetchChatHistory = async () => {
     try {
       const response = await fetch(
-        `http://127.0.0.1:5000/get-chat-history/${userEmail}`,
+        `https://agromind-ai-q13r.onrender.com/get-chat-history/${userEmail}`,
       );
 
       const data = await response.json();
@@ -86,7 +86,7 @@ function Chat() {
   const loadChat = async (selectedChatId) => {
     try {
       const response = await fetch(
-        `http://127.0.0.1:5000/get-chats/${selectedChatId}`,
+        `https://agromind-ai-q13r.onrender.com/get-chats/${selectedChatId}`,
       );
 
       const data = await response.json();
@@ -123,7 +123,7 @@ function Chat() {
 
   const deleteChat = async (selectedChatId) => {
     try {
-      await fetch(`http://127.0.0.1:5000/delete-chat/${selectedChatId}`, {
+      await fetch(`https://agromind-ai-q13r.onrender.com/delete-chat/${selectedChatId}`, {
         method: "DELETE",
       });
 
@@ -209,7 +209,7 @@ function Chat() {
     setInput("");
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/chat", {
+      const response = await fetch("https://agromind-ai-q13r.onrender.com/chat", {
         method: "POST",
         body: formData,
       });

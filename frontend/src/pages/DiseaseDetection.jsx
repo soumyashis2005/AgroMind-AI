@@ -137,7 +137,7 @@ function DiseaseDetection() {
 
       const response = await fetch(
 
-        "http://127.0.0.1:5000/chat",
+        "https://agromind-ai-q13r.onrender.com/chat",
 
         {
           method: "POST",

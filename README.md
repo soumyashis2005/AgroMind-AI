@@ -132,7 +132,7 @@ python app.py
 Backend runs on:
 
 ```plaintext id="backendurl"
-http://127.0.0.1:5000
+https://agromind-ai-q13r.onrender.com
 ```
 
 ---
