@@ -136,13 +136,13 @@ function Profile() {
             {/* INFO */}
 
             <div className="space-y-3">
-              <h2 className="text-3xl md:text-4xl font-black">
+              <h2 className="text-3xl md:text-4xl font-black break-all">
                 {userName}
               </h2>
 
               <p className="text-lg text-gray-300">
                 📧 Email:
-                <span className="text-green-400 ml-2">
+                <span className="text-green-400 ml-2 break-all">
                   {userEmail}
                 </span>
               </p>

@@ -333,7 +333,8 @@ function Chat() {
                     flex
                     items-center
                     justify-center
-                    min-h-[70vh]
+                    min-h-[50vh] md:min-h-[70vh]
+                    px-4 pt-6 pb-24
                   "
                 >
                   <div className="text-center">
