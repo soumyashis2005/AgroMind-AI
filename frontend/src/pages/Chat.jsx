@@ -343,10 +343,12 @@ function Chat() {
                     px-4 pt-6 pb-24
                   "
                 >
-                  <div className="text-center">
+                  <div className="text-center max-w-2xl mx-auto">
                     <h2
                       className="
-text-4xl
+text-3xl
+sm:text-4xl
+md:text-5xl
 md:text-5xl
 leading-tight
 font-black
