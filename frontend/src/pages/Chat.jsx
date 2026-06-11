@@ -123,9 +123,12 @@ function Chat() {
 
   const deleteChat = async (selectedChatId) => {
     try {
-      await fetch(`https://agromind-ai-q13r.onrender.com/delete-chat/${selectedChatId}`, {
-        method: "DELETE",
-      });
+      await fetch(
+        `https://agromind-ai-q13r.onrender.com/delete-chat/${selectedChatId}`,
+        {
+          method: "DELETE",
+        },
+      );
 
       fetchChatHistory();
 
@@ -209,10 +212,13 @@ function Chat() {
     setInput("");
 
     try {
-      const response = await fetch("https://agromind-ai-q13r.onrender.com/chat", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://agromind-ai-q13r.onrender.com/chat",
+        {
+          method: "POST",
+          body: formData,
+        },
+      );
 
       const data = await response.json();
 
@@ -340,10 +346,13 @@ function Chat() {
                   <div className="text-center">
                     <h2
                       className="
-                        text-5xl
-                        font-black
-                        mb-6
-                      "
+text-4xl
+md:text-5xl
+leading-tight
+font-black
+mb-4
+px-4
+"
                     >
                       🌱 Welcome to AgroMind AI
                     </h2>
@@ -351,7 +360,7 @@ function Chat() {
                     <p
                       className="
                         text-gray-400
-                        text-lg
+                        text-base md:text-lg px-2
                       "
                     >
                       Start a smart farming conversation.
