@@ -1,8 +1,21 @@
 # 🌱 AgroMind AI
 
-AgroMind AI is an AI-powered smart farming platform that helps farmers with crop disease detection, weather monitoring, AI chatbot assistance, and agricultural analytics.
+AgroMind AI is an AI-powered smart farming platform designed to help farmers with crop disease detection, weather monitoring, AI chatbot assistance, and smart agricultural analytics.
 
-The platform combines modern web technologies with AI-driven solutions to improve farming productivity, decision-making, and accessibility for farmers.
+The platform combines Artificial Intelligence, real-time weather monitoring, and modern web technologies to improve farming productivity, crop management, and decision-making.
+
+---
+
+# 🌐 Live Demo
+
+## Frontend
+https://your-vercel-url.vercel.app
+
+## Backend
+https://agromind-ai-q13r.onrender.com
+
+> ⚠️ Note:
+> The backend is hosted on Render free tier, so the first request may take a few seconds due to cold start.
 
 ---
 
@@ -10,37 +23,37 @@ The platform combines modern web technologies with AI-driven solutions to improv
 
 ## 🤖 AI Farming Assistant
 
-* AI-powered chatbot for farming queries
-* Real-time agricultural guidance
-* Interactive chat support
-* Smart farming recommendations
+- AI-powered chatbot for farming-related queries
+- Smart farming recommendations
+- Interactive real-time chat support
+- AI-generated agricultural guidance
 
 ## 🌾 Crop Disease Detection
 
-* Upload crop or leaf images
-* AI-based disease analysis
-* Disease monitoring and tracking
-* Crop health insights
+- Upload crop or leaf images
+- AI-based disease analysis
+- Crop health monitoring
+- Smart disease insights
 
 ## 🌦️ Weather Monitoring
 
-* Real-time weather updates
-* Temperature, humidity, and wind monitoring
-* Weather-based farming suggestions
+- Real-time weather updates
+- Temperature, humidity, and wind monitoring
+- Weather-based farming recommendations
 
 ## 📊 Smart Analytics Dashboard
 
-* Farming activity analytics
-* Disease scan statistics
-* AI chatbot usage tracking
-* Weather check monitoring
-* Dynamic dashboard insights
+- Farming activity analytics
+- Disease scan tracking
+- AI chatbot usage statistics
+- Weather monitoring analytics
+- Dynamic dashboard insights
 
 ## 👨‍🌾 Farmer Profile System
 
-* User authentication system
-* Personalized farmer dashboard
-* User-specific activity tracking
+- Secure authentication system
+- Personalized farmer dashboard
+- User-specific activity tracking
 
 ---
 
@@ -48,78 +61,74 @@ The platform combines modern web technologies with AI-driven solutions to improv
 
 ## Frontend
 
-* React.js
-* Vite
-* Tailwind CSS
-* Framer Motion
-* React Icons
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
 ## Backend
 
-* Flask
-* Flask-CORS
-* SQLite
+- Flask
+- Flask-CORS
+- SQLite
 
 ## APIs & AI
 
-* OpenWeather API
-* AI-powered crop disease analysis
+- Groq AI API
+- OpenWeather API
 
 ---
 
 # 📂 Project Structure
 
-```plaintext id="agromindstructure"
+```plaintext
 AgroMind-AI/
 │
 ├── frontend/
 │   ├── src/
 │   ├── public/
 │   ├── package.json
-│   └── vite.config.js
+│   ├── vite.config.js
+│   └── vercel.json
 │
 ├── backend/
 │   ├── app.py
 │   ├── database.py
 │   ├── agromind.db
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── .env
+│
+├── screenshots/
 │
 └── README.md
-```
 
 ---
 
-# ⚡ Installation & Setup
+⚡ Installation & Setup
 
-## 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 
-```bash id="cloneagromind"
 git clone https://github.com/soumyashis2005/AgroMind-AI.git
-```
 
 ---
 
-## 2️⃣ Frontend Setup
+2️⃣ Frontend Setup
 
-```bash id="frontendsetup"
 cd frontend
 
 npm install
 
 npm run dev
-```
 
 Frontend runs on:
 
-```plaintext id="frontendurl"
 http://localhost:5173
-```
 
 ---
 
-## 3️⃣ Backend Setup
+3️⃣ Backend Setup
 
-```bash id="backendsetup"
 cd backend
 
 pip install -r requirements.txt
@@ -127,70 +136,75 @@ pip install -r requirements.txt
 python database.py
 
 python app.py
-```
 
 Backend runs on:
 
-```plaintext id="backendurl"
-https://agromind-ai-q13r.onrender.com
-```
+http://127.0.0.1:5000
 
 ---
 
-# 🌐 Deployment
+🌐 Deployment
 
-## Frontend Deployment
+Frontend Deployment
 
-* Vercel
+- Vercel
 
-## Backend Deployment
+Backend Deployment
 
-* Render
-
----
-
-# 📸 Screenshots
-
-## Dashboard
-
-(Add screenshot here)
-
-## Weather Monitoring
-
-(Add screenshot here)
-
-## Crop Disease Detection
-
-(Add screenshot here)
-
-## AI Farming Assistant
-
-(Add screenshot here)
+- Render
 
 ---
 
-# 🔮 Future Improvements
+📸 Screenshots
 
-* JWT Authentication
-* Advanced AI/ML Integration
-* PostgreSQL Database
-* PDF Report Generation
-* Voice Assistant
-* Multi-language Support
-* Advanced Dashboard Charts
-* Farmer Community Features
+📊 Dashboard
+
+"Dashboard" (screenshots/agro_dashboard.png)
 
 ---
 
-# 👨‍💻 Developer
+🌦️ Weather Monitoring
+
+![Weather](screenshots/agro_weather.png)
+
+---
+
+🌾 Crop Disease Detection
+
+![Disease Detection](screenshots/agro_disease_detection.png)
+
+---
+
+🤖 AI Farming Assistant
+
+![AI Chat](screenshots/agro_chat.png)
+
+---
+
+🔮 Future Improvements
+
+- JWT Authentication
+- PostgreSQL Database
+- Advanced AI/ML Integration
+- Voice Assistant
+- PDF Report Generation
+- Multi-language Support
+- Advanced Dashboard Charts
+- Farmer Community Features
+- Real-time Notifications
+
+---
+
+👨‍💻 Developer
 
 Soumyashis Ghosh
 
 B.Tech CSE Student
+Brainware University
 
 ---
 
-# 🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome!
 
@@ -203,12 +217,12 @@ If you would like to improve this project:
 
 ---
 
-# 📜 License
+📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-# ⭐ Support
+⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, consider giving it a ⭐ on GitHub!
